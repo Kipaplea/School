@@ -1,0 +1,129 @@
+@font-face {
+  font-family: "Arsenal";
+  src: url(../font/Arsenal-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Arsenal";
+  src: url(../font/Arsenal-Bold.ttf);
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Noto Sans";
+  src: url(../font/NotoSans-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Noto Sans";
+  src: url(../font/NotoSans-Bold.ttf);
+  font-weight: 700;
+}
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Noto Sans";
+  font-weight: 400;
+}
+
+body {
+  background-color: #4C2425;
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  all: unset;
+}
+
+.new {
+  padding-top: 63px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+.new__logo {
+  display: flex;
+  align-items: center;
+  padding-bottom: 63px;
+}
+.new__logo-text {
+  font-family: "Arsenal";
+  color: #FBFAF7;
+  font-size: 36px;
+  font-weight: 700;
+  padding-left: 14px;
+}
+.new__wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 60px;
+  padding-bottom: 20px;
+  background-color: #B8958D;
+  border-radius: 12px;
+  width: 500px;
+}
+.new__title {
+  font-family: "Arsenal";
+  font-size: 36px;
+  font-weight: bold;
+  color: #372824;
+}
+.new__inputs {
+  margin-top: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.new__input {
+  background-color: #FBFAF7;
+  border: 2px solid rgba(76, 36, 37, 0.7);
+  border-radius: 10px;
+  padding: 19px 19px;
+  font-size: 16px;
+  width: 310px;
+  color: #372824;
+}
+.new__input ::-moz-placeholder {
+  color: #CFA294;
+}
+.new__input ::placeholder {
+  color: #CFA294;
+}
+.new__btn {
+  margin-top: 35px;
+  color: #372824;
+  background-color: #F9E1DC;
+  border: 2px solid rgba(76, 36, 37, 0.6);
+  padding: 16px 24px;
+  border-radius: 10px;
+  font-weight: bold;
+  width: 170px;
+  text-align: center;
+}
+.new__links {
+  margin-top: 50px;
+  padding-bottom: 13px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 392px;
+}
+.new__link {
+  font-size: 15px;
+  color: #61433B;
+  text-decoration: underline;
+}
+.new__link span {
+  text-decoration: none;
+}
+.new__again {
+  padding-top: 17px;
+  font-size: 15px;
+  color: #61433B;
+  text-decoration: underline;
+}/*# sourceMappingURL=new.css.map */

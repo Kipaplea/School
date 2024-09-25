@@ -1,0 +1,123 @@
+@font-face {
+  font-family: "Arsenal";
+  src: url(../font/Arsenal-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Arsenal";
+  src: url(../font/Arsenal-Bold.ttf);
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Noto Sans";
+  src: url(../font/NotoSans-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Noto Sans";
+  src: url(../font/NotoSans-Bold.ttf);
+  font-weight: 700;
+}
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Noto Sans";
+  font-weight: 400;
+}
+
+body {
+  background-color: #4C2425;
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  all: unset;
+}
+
+.log {
+  padding-top: 63px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+.log__logo {
+  display: flex;
+  align-items: center;
+  padding-bottom: 63px;
+}
+.log__logo-text {
+  font-family: "Arsenal";
+  color: #FBFAF7;
+  font-size: 36px;
+  font-weight: 700;
+  padding-left: 14px;
+}
+.log__wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 60px;
+  padding-bottom: 20px;
+  background-color: #B8958D;
+  border-radius: 12px;
+  width: 500px;
+}
+.log__title {
+  font-family: "Arsenal";
+  font-size: 40px;
+  font-weight: bold;
+  color: #372824;
+}
+.log__inputs {
+  margin-top: 30px;
+  margin-bottom: 24px;
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.log__input {
+  background-color: #FBFAF7;
+  border: 2px solid rgba(76, 36, 37, 0.7);
+  border-radius: 10px;
+  padding: 19px 19px;
+  font-size: 16px;
+  width: 310px;
+  color: #372824;
+}
+.log__input ::-moz-placeholder {
+  color: #CFA294;
+}
+.log__input ::placeholder {
+  color: #CFA294;
+}
+.log__btn {
+  color: #372824;
+  background-color: #F9E1DC;
+  border: 2px solid rgba(76, 36, 37, 0.6);
+  padding: 16px 24px;
+  border-radius: 10px;
+  font-weight: bold;
+  width: 170px;
+  text-align: center;
+}
+.log__links {
+  margin-top: 30px;
+  padding-bottom: 13px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 392px;
+}
+.log__link {
+  font-size: 15px;
+  color: #61433B;
+}
+.log__link span {
+  text-decoration: underline;
+}/*# sourceMappingURL=log.css.map */

@@ -1,0 +1,117 @@
+@font-face {
+  font-family: "Arsenal";
+  src: url(../font/Arsenal-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Arsenal";
+  src: url(../font/Arsenal-Bold.ttf);
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Noto Sans";
+  src: url(../font/NotoSans-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Noto Sans";
+  src: url(../font/NotoSans-Bold.ttf);
+  font-weight: 700;
+}
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Noto Sans";
+  font-weight: 400;
+}
+
+body {
+  background-color: #4C2425;
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  all: unset;
+}
+
+.reg {
+  padding-top: 63px;
+  padding-bottom: 76px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+.reg__logo {
+  display: flex;
+  align-items: center;
+  padding-bottom: 63px;
+}
+.reg__logo-text {
+  font-family: "Arsenal";
+  color: #FBFAF7;
+  font-size: 36px;
+  font-weight: 700;
+  padding-left: 14px;
+}
+.reg__wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  background-color: #B8958D;
+  border-radius: 12px;
+  width: 500px;
+}
+.reg__title {
+  font-family: "Arsenal";
+  font-size: 40px;
+  font-weight: bold;
+  color: #372824;
+}
+.reg__inputs {
+  margin-top: 30px;
+  margin-bottom: 24px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.reg__input {
+  background-color: #FBFAF7;
+  border: 2px solid rgba(76, 36, 37, 0.7);
+  border-radius: 10px;
+  padding: 19px 19px;
+  font-size: 16px;
+  width: 310px;
+  color: #372824;
+}
+.reg__input ::-moz-placeholder {
+  color: #CFA294;
+}
+.reg__input ::placeholder {
+  color: #CFA294;
+}
+.reg__btn {
+  color: #372824;
+  background-color: #F9E1DC;
+  border: 2px solid rgba(76, 36, 37, 0.6);
+  padding: 16px 24px;
+  border-radius: 10px;
+  font-weight: bold;
+  width: 170px;
+  text-align: center;
+}
+.reg__link {
+  padding-top: 30px;
+  font-size: 15px;
+  color: #61433B;
+}
+.reg__link span {
+  text-decoration: underline;
+}/*# sourceMappingURL=reg.css.map */
